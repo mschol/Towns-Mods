@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<buildings>
+	<snoatfarm>
+		<name esES="Granja snoat">Snoat farm</name>
+		<description esES="Granja snoat">Snoat farm</description>
+		<width>3</width>
+		<height>3</height>
+		<groundData>1001E0111</groundData>
+
+		<type>SPAWN</type>
+
+		<canBeBuiltUnderground>false</canBeBuiltUnderground>
+
+		<mustBeBuiltOver>snow</mustBeBuiltOver>
+		<mustBeBuiltOver>snowhumus</mustBeBuiltOver>
+		
+		<prerequisite>rmwood</prerequisite>
+		<prerequisite>rmwood</prerequisite>
+		<prerequisiteFriendly>snoat,wildsnoat</prerequisiteFriendly>
+
+		<automatic>true</automatic>
+	</snoatfarm>
+</buildings>

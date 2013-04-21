@@ -1,0 +1,17 @@
+<menu>
+	<food name="Food" esES="Comida" icon="ui_rfood">
+		<gathering name="Gathering" esES="Recolectar" icon="ui_rfoodgathering">
+			<animals name="Animals" esES="Animales" icon="ui_chickenfarm">
+				<item id="qmilkwildsnoat" code="QUEUE" parameter="qmilkwildsnoat" />
+			</animals>
+		</gathering>
+	</food>
+	<materials name="Materials" esES="Materiales" icon="ui_rmaterials">
+		<item id="qtrimwildsnoat" code="QUEUE" parameter="qtrimwildsnoat" />
+	</materials>
+	<vanity name="Vanity" esES="Vanidad" icon="ui_rvanity">
+		<hides name="Hides and materials" esES="Pieles y materiales" icon="ui_rhides">
+			<item id="qtrimwildsnoat" code="QUEUE" parameter="qtrimwildsnoat" />
+		</hides>
+	</vanity>
+</menu>

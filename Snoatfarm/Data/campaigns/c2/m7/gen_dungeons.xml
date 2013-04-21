@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gen_dungeons>
+	<dungeon id="3">
+		<level>3</level>
+		<type>__CAVE__</type>
+
+		<monster>
+			<id>spider</id>
+			<number>800</number>
+		</monster>
+		<monster>
+			<id>spiderqueen</id>
+			<number>2</number>
+		</monster>
+	</dungeon>
+</gen_dungeons>

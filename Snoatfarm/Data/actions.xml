@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<actions>
+	<action>
+		<id>qkillsnoat</id>
+		<name esES="Matar">Kill</name>
+
+		<generatedItem>rawdeersteak</generatedItem>
+		<priorityID>butcheringkilling</priorityID>
+
+		<queue>
+			<pickFriendly useSource="true">snoat,wildsnoat</pickFriendly>
+			<wait>36</wait>
+			<destroyFriendly />
+			<createItem>rawdeersteak</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>qtrimwildsnoat</id>
+
+		<priorityID>gatheringharvesting</priorityID>
+
+		<queue>
+			<pickFriendly>wildsnoat</pickFriendly>
+			<move>skinner</move>
+			<wait>32</wait>
+			<unlock />
+			<createFriendly>skinnedwildsnoat</createFriendly>
+			<createItem>wool</createItem>
+		</queue>
+	</action>
+	
+		<action>
+		<id>qmilkwildsnoat</id>
+
+		<priorityID>gatheringharvesting</priorityID>
+
+		<queue>
+			<pickFriendly>wildsnoat</pickFriendly>
+			<wait>32</wait>
+			<createFriendly>milkedwildsnoat</createFriendly>
+			<createItem>milk</createItem>
+		</queue>
+	</action>
+	<action>
+		<id>qanimalhide</id>
+
+		<priorityID>butcheringkilling</priorityID>
+
+		<queue>
+			<pickFriendly>cow,bull,milkedcow,wildcow,milkedwildcow,snoat,milkedwildsnoat,wildsnoat,milkedsnoat,reindeer,doe</pickFriendly>
+			<move>skinner</move>
+			<wait>32</wait>
+			<destroyFriendly />
+			<unlock />
+			<createItem>animalhide</createItem>
+		</queue>
+	</action>
+</actions>
+
